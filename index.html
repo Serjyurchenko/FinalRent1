@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="wrapper">
+  <header role="banner">
+    <div class="wrapper-inner">
+      <div class="logo">
+        <a href="#"><img src="images/logo.png" alt="logo"><span>LOGO</span></a>
+      </div>
+        <nav>
+          <i class="fa fa-bars burger"></i>
+            <ul>
+              <li><a href="#steps">этапы работы</a></li>
+              <li><a href="#calculate">КАЛЬКУЛЯТОР</a></li>
+              <li><a href="#advantages">преимущества</a></li>
+              <li><a href="#in-touch">ОБРАТНАЯ СВЯЗЬ</a></li>
+            </ul>
+            </nav>
+          <div class="phone-area">
+            <div class="phone-number">
+              <i class="fa fa-phone"></i>
+                <a href="tel:+71234567890">+7 (123) 456-78-90</a>
+            </div>
+                <button class="button-main-style get-modal-call button button-3d">Заказать звонок</button>
+            </div>
+            <div class="modal-call">
+              <div class="modal-inner">
+                <form action="#">
+                  <h3><span>Заказать звонок</span><br>
+                            Отправьте заявку и мы свяжемся с Вами в ближайшее время</h3>
+                    <label>
+                      <input type="text" placeholder="Ваше имя" name="name" required>
+                    </label>
+                    <label>
+                    <input type="tel" placeholder="Ваш телефон" name="telephone" required>
+                    </label>
+                    <button type="submit" class="button-main-style">Отправить</button>
+                    </form>
+                  <div class="close-modal">&#10006;</div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+    <div class="top-section">
+      <div class="wrapper-inner">
+        <p>Современные стандарты, новейшие материалы для ремонта и отделки, энергосберегающие технологии -<br><span>все это гарантия успешного арендного бизнеса!</span></p>
+        <button class="button-main-style get-modal-more">Узнать подробнее</button>
+        <div class="modal-more">
+          <div class="modal-inner">
+              <form action="#">
+                <h3><span>Узнать подробнее</span><br>
+                Отправьте заявку и мы свяжемся с Вами в ближайшее время</h3>
+                  <label>
+                    <input type="text" placeholder="Ваше имя" name="name" required>
+                  </label>
+                  <label>
+                  <input type="tel" placeholder="Ваш телефон" name="telephone" required>
+                  </label>
+                    <label>
+                      <input type="email" placeholder="Ваш e-mail" name="email" required>
+                    </label>
+                      <button type="submit" class="button-main-style">Отправить</button>
+                    </form>
+                  <div class="close-modal">&#10006;</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <section class="steps" id="steps">
+      <div class="wrapper-inner">
+        <h2>Станьте профессионалом арендного бизнеса<br>За 5 шагов:</h2>
+          <ul>
+            <li>Бизнес-план на основе оценки профессионального риэлтора</li>
+            <li>План-проект реновации с фиксированным бюджетом на работы и материалы</li>
+            <li>Подбор способа финансирования проекта</li>
+            <li>Выполнение работ квалифицированными мастерами точно в срок</li>
+            <li>Гарантированная сдача объекта в аренду и возврат сделанных инвест</li>
+          </ul>
+        </div>
+    </section>
+
+    <section class="calculate" id="calculate">
+      <div class="wrapper-inner">
+        <h2>Экспресс оценка Вашей выгоды</h2>
+          <div class="wrapper-calculate-area">
+            <form action="#" class="calculate-area" >
+              <ul>
+                <li class="line">
+                  <p>Выберите этажность дома</p>
+                  <ul>
+                    <li>
+                      <label class="radio-container">
+                      <input type="radio" name="stage" value="<5">до 5 этажей
+                      <span class="radio-mark"></span>
+                      </label></li>
+                    <li>
+                      <label class="radio-container">
+                        <input type="radio" name="stage" value="9-14">9-14 этажей
+                        <span class="radio-mark"></span>
+                      </label></li>
+                    <li>
+                      <label class="radio-container">
+                        <input type="radio" name="stage" value=">16">16 и более этажей
+                        <span class="radio-mark"></span>
+                      </label>
+                    </li>
+                  </ul>
+                </li>
+                  <li class="line">
+                    <label>Выберите свой этаж
+                      <input type="text" name="your-stage" class="your-stage">
+                    </label>
+                  </li>
+                  <li class="line">
+                    <label>Введите метраж
+                      <input type="text" name="square" class="square" required>
+                      <span class="square-unit">м<sup>2</sup></span>
+                    </label>
+                  </li>
+                  <li class="line">
+                    <p>Количество комнат</p>
+                  <ul>
+                    <li>
+                      <label class="radio-container">
+                      <input type="radio" name="room" value="1">1
+                      <span class="radio-mark"></span>
+                      </label>
+                    </li>
+                    <li>
+                      <label class="radio-container">
+                        <input type="radio" name="room" value="2">2
+                        <span class="radio-mark"></span>
+                      </label>
+                    </li>
+                    <li>
+                      <label class="radio-container">
+                        <input type="radio" name="room" value="3">3
+                          <span class="radio-mark"></span>
+                      </label>
+                    </li>
+                  </ul>
+                </li>
+                <li class="line">
+                  <p>Удаленность от метро:</p>
+                    <ul>
+                      <li>
+                        <label class="radio-container">
+                          <input type="radio" name="transfer" value="afoot">пешком
+                          <span class="radio-mark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label class="radio-container">
+                          <input type="radio" name="transfer" value="transport">транспортом
+                          <span class="radio-mark"></span>
+                        </label>
+                      </li>
+                    </ul><br>
+                    <ul style="padding-top: 20px">
+                      <li>
+                        <label class="radio-container">
+                        <input type="radio" name="remoteness" value="<5">до 5 минут
+                        <span class="radio-mark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label class="radio-container">
+                          <input type="radio" name="remoteness" value="5-10">5-10 минут
+                          <span class="radio-mark"></span>
+                        </label></li>
+                      <li>
+                        <label class="radio-container">
+                          <input type="radio" name="remoteness" value="<10">до 10 минут
+                          <span class="radio-mark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label class="radio-container">
+                          <input type="radio" name="remoteness" value="10-15">10-15 минут
+                          <span class="radio-mark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label class="radio-container">
+                          <input type="radio" name="remoteness" value=">15">больше 15 минут
+                          <span class="radio-mark"></span>
+                        </label>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="line">
+                    <p>Тип ремонта</p>
+                    <ul >
+                      <li>
+                        <label class="radio-container">
+                          <input type="radio" name="repair" value="aged">бабушкин
+                          <span class="radio-mark"></span>
+                          </label>
+                      </li>
+                      <li>
+                        <label class="radio-container">
+                          <input type="radio" name="repair" value="economy">эконом
+                          <span class="radio-mark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label class="radio-container">
+                          <input type="radio" name="repair" value="premium">премиум
+                          <span class="radio-mark"></span>
+                         </label>
+                       </li>
+                      </ul><br>
+                      <ul style="padding-top: 20px" >
+                        <li>
+                          <label class="radio-container">
+                            <input type="radio" name="correction" value="rebuilding">требует капитальный ремонт
+                            <span class="radio-mark"></span>
+                          </label>
+                        </li>
+                        <li>
+                          <label class="radio-container">
+                            <input type="radio" name="correction" value="redecorating">требует косметический ремонт
+                            <span class="radio-mark"></span>
+                          </label>
+                        </li>
+                        <li>
+                          <label class="radio-container">
+                            <input type="radio" name="correction" value="brand-new">не требует
+                            <span class="radio-mark"></span>
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="line">
+                      <label>За сколько сейчас сдается?
+                        <input type="text" name="price" class="price" required>
+                        <span class="price-unit">руб.</span>
+                      </label>
+                    </li>
+                    <li class="line">
+                      <label>
+                        <input type="email" placeholder="Ваш e-mail" name="email">
+                      </label>
+                    <span>ИЛИ</span>
+                  <label>
+                    <input type="tel" placeholder="Ваш телефон" name="telephone">
+                  </label>
+                </li>
+              </ul>
+            <button type="submit" class="button-main-style">Рассчитать</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="advantages" id="advantages">
+      <div class="wrapper-inner">
+        <h2>Наши преимущества</h2>
+          <ul>
+            <li><img src="images/advantage-1.png" alt="picture">100% - рабочая бизнес-модель</li>
+            <li><img src="images/advantage-2.png" alt="picture">Окупаемость проекта 11 месяцев</li>
+            <li><img src="images/advantage-3.png" alt="picture">Бесплатные консультации и помощь в пересдаче квартиры в течении года</li>
+            <li><img src="images/advantage-4.png" alt="picture">Дополнительно: уборка, текущий ремонт, правовое и налоговое консультирование</li>
+          </ul>
+      </div>
+    </section>
+    <section class="income">
+      <div class="wrapper-inner">
+        <h2>Вы получите стабильный и высокий доход</h2>
+        <ul>
+          <li>
+          <div class="circle"><img src="images/income-guarantee.png" alt="picture">
+          </div>
+              Гарантированная сдача объекта в аренду по договору
+          </li>
+          <li>
+            <div class="circle"><img src="images/income-continuous.png" alt="picture"></div>
+            Найдем адекватных арендаторов на длительный срок
+          </li>
+          <li>
+          <div class="circle"><img src="images/income-comfort.png" alt="picture"></div>
+          Вашим арендаторам будет на столько удобно,что им не захочется уезжать
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="in-touch" id="in-touch">
+      <div class="wrapper-inner">
+        <h2>Остались&nbsp;вопросы? Мы&nbsp;всегда&nbsp;на&nbsp;связи!</h2>
+          <span>Отправьте заявку и мы свяжемся с Вами в ближайшее время</span>
+            <form action="#">
+              <label>
+                <input type="text" placeholder="Ваше имя" name="name" required>
+              </label>
+              <label>
+                <input type="tel" placeholder="Ваш телефон" name="telephone" required>
+              </label>
+              <label>
+                <textarea placeholder="Сообщение" name="request" maxlength="1000" required></textarea>
+              </label>
+                <button class="button-main-style" type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+    <footer role="contentinfo">
+      <div class="wrapper-inner">
+        <div>
+          <ul class="social-icons">
+            <li><a href="#"><i class="fa fa-vk"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+          </ul>
+        </div>
+      <div class="copyright">Все права защищены © 2017</div>
+        <div class="phone-area">
+          <div class="phone-number">
+            <i class="fa fa-phone"></i>
+            <a href="tel:+71234567890">+7 (123) 456-78-90</a>
+          </div>
+            
+        </div>
+        <div class="footer-btn">
+              <button class="button-main-style get-modal-call">Заказать звонок</button>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/custom-scripts.js"></script>
+
+</body>
+</html>
